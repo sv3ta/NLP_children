@@ -1,0 +1,42 @@
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Python cache / tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local virtualenv (this project currently contains one)
+.Python
+bin/
+lib/
+share/
+pyvenv.cfg
+
+# Raw input data (do not upload)
+01_INPUT FILES/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+
+# Audio / media (do not upload)
+*.m4a
+*.wav
+*.mp3
+*.flac
+*.aac
+*.ogg
+*.zip
+*.7z
+
+# Generated outputs
+02_OUTPUT/
+*.jsonl
+
+# Secrets / env
+.env
+.env.*
